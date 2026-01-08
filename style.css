@@ -28,15 +28,17 @@
     box-shadow: 0 10px 20px -12px #0000001A;
 }
 
-.hero-btn * {
-    padding: 16px;
-
-}
-
 .hero-btn {
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+.arrow {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 /* Main Classes Here */
@@ -46,9 +48,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px;
-
-
-
 }
 
 .nav-links ul {
@@ -69,6 +68,9 @@ nav {
     font-size: 16px;
     font-weight: 500;
 }
+
+
+/* Hero Section Here */
 
 .hero {
     background-image: url(assets/hero-bg.png);
@@ -113,11 +115,21 @@ nav {
     border: none;
     border-radius: 28px;
     padding: 8px 12px;
-    display: inline-block;
+}
+
+.gap-early {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
 }
 
 .trans-btn {
     color: #FFFFFF;
     background-color: transparent;
     border: 1px solid #FFFFFF;
+}
+
+.hero button {
+    padding: 16px;
 }
