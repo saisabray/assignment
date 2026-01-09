@@ -17,11 +17,19 @@
 }
 
 .small,
-.card p {
+p,
+h4,
+{
 
-    color: #627382;
-    font-size: 16px;
-    line-height: 20px;
+color: #627382;
+font-size: 16px;
+line-height: 20px;
+}
+
+h2 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .btn {
@@ -95,7 +103,7 @@ nav {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
+    border: 1px solid green;
 }
 
 .hero-container h1 {
@@ -158,9 +166,6 @@ nav {
 }
 
 .fails-container h2 {
-    color: #001931;
-    font-size: 48px;
-    font-weight: bold;
     margin: 50px 0 15px;
 }
 
@@ -201,4 +206,72 @@ nav {
     font-size: 24px;
     color: #001931;
     font-weight: 500;
+}
+
+/* Brain here  */
+
+.brain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 120px;
+
+}
+
+h4 {
+    color: #469165;
+    font-weight: 500;
+}
+
+.check {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+
+.grpcheck {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.second-brain {
+    margin: 16px 0;
+}
+
+.check p {
+    color: #001931;
+    font-weight: 500;
+}
+
+.brain-design {
+    display: block;
+
+}
+
+.para-width {
+    width: 70%;
+}
+
+.get-access {
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 120px;
+}
+
+.get-access .bt {
+    margin-top: 8px;
+}
+
+.get-access-title {
+    font-size: 40px;
 }
